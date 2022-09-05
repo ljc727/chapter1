@@ -12,6 +12,7 @@ public class NoDIController {
 
     @GetMapping("/no-di/hello")
     public String getHello() {
+        //테스트
         return service.getHello();
     }
 
